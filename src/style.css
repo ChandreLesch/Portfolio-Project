@@ -20,6 +20,7 @@ h6 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 
 h2 {
@@ -57,7 +58,7 @@ p {
   color: white;
   font-size: 18px;
   line-height: 27px;
-  padding: 18px 30px;
+  padding: 15px 30px;
 }
 
 .btn-branding-outline {
@@ -66,7 +67,7 @@ p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
-  padding: 18px 30px;
+  padding: 15px 30px;
 }
 
 .project-description {
@@ -74,6 +75,18 @@ p {
 }
 
 @media (max-width: 960px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  .hero {
+    padding: 100px 25px;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;

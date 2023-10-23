@@ -25,84 +25,96 @@
     />
     <link rel="stylesheet" href="src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio - Chandré Lesch</title>
+    <meta
+      class="description"
+      content="Contact Chandré Lesch - front-end engineer, based in Cape Town"
+    />
+    <title>Contact front-end developer - Chandré Lesch</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <img
             src="images/logo.png"
             class="logo d-none d-md-block"
-            alt="SheCodes Logo"
+            alt="Chandré Logo"
           />
           <img
             src="images/logo-small.png"
             class="logo d-block d-md-none"
-            alt="SheCodes Logo"
+            alt="Chandré Logo"
           />
         </a>
         <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Chandré">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Chandré's work">Work</a>
+          </li>
           <li class="active">
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/about.html">About</a>
-          </li>
-          <li>
-            <a href="/work.html">Work</a>
-          </li>
-          <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Chandré">Contact</a>
           </li>
         </ul>
       </nav>
     </div>
     <div class="content-container container">
-      <div class="content">
-        <h1 class="mb-5">Let's get in touch!</h1>
+      <div class="content email-link">
+        <h1 class="mb-5 text-center">Let's get in touch!</h1>
         <h3>Email</h3>
         <p>
-          <a href="mailto:chandrelesch@gmail.com">chandrelesch@gmail.com</a>
+          <a href="mailto:chandrelesch@gmail.com" title="Email Chandré"
+            >chandrelesch@gmail.com</a
+          >
         </p>
         <h3>Instagram</h3>
         <p>
-          <a href="https://www.instagram.com/amethystic_cakes" target="_blank"
+          <a
+            href="https://www.instagram.com/amethystic_cakes"
+            target="_blank"
+            title="Instagram Chandré"
             >amethystic_cakes</a
           >
         </p>
       </div>
       <footer>
-        <div
-          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
-        >
-          <div>
-            <h4>Work Inquiry</h4>
-            <p class="text-muted">Let's work together</p>
-          </div>
-          <div>
-            <a href="/contact.html" class="btn btn-branding mt-3">Contact Me</a>
-          </div>
-        </div>
-        <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:chandrelesch@gmail.com" class="email-link"
-            >chandrelesch@gmail.com</a
-          >
-        </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.instagram.com/amethystic_cakes" target="_blank">
+          <a
+            href="https://www.instagram.com/amethystic_cakes"
+            target="_blank"
+            title="Instagram Profile"
+          >
             <i class="fa-brands fa-instagram"></i>
           </a>
-          <a href="https://www.github.com/chandrelesch" target="_blank">
+          <a
+            href="https://www.github.com/chandrelesch"
+            target="_blank"
+            title="GitHub Profile"
+          >
             <i class="fa-brands fa-github"></i>
           </a>
           <a
             href="https://www.facebook.com/chandrereunitalesch"
             target="_blank"
+            title="Facebook Profile"
           >
             <i class="fa-brands fa-facebook"></i>
           </a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Chandré Lesch, and it is
+          <a
+            href="https://github.com/ChandreLesch/Portfolio-Project"
+            target="_blank"
+            title="GitHub Repository Project"
+          >
+            open-sourced
+          </a>
+        </p>
       </footer>
     </div>
   </body>

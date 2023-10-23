@@ -40,7 +40,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 200px 50px;
+  padding: 120px 50px;
 }
 
 .hero p {
@@ -58,7 +58,7 @@ p {
 }
 
 .content-container {
-  padding: 120px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -140,6 +140,10 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
+}
+
+.email-link {
+  text-align: center;
 }
 
 footer {

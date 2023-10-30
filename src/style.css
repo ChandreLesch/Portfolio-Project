@@ -19,7 +19,7 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 90px;
   line-height: 1.5;
 }
 
@@ -58,7 +58,7 @@ p {
 }
 
 .content-container {
-  padding: 60px 20px;
+  padding: 50px 20px;
 }
 
 .content h1 {
@@ -86,7 +86,7 @@ p {
 }
 
 .content {
-  margin: 50px 50px;
+  margin: 20px 50px;
 }
 
 .btn-branding {
@@ -115,6 +115,35 @@ p {
   max-height: 40px;
 }
 
+.card {
+  padding: 30px;
+  border: solid 3px var(--secondary-color);
+  border-radius: 10px;
+}
+.container-card :hover {
+  transform: perspective(10000px) rotateX(10deg) rotateY(10deg) scale3d(1, 1, 1);
+}
+
+.card-title {
+  text-align: center;
+  font-size: 25px;
+}
+
+.icon {
+  text-align: center;
+  font-size: 100px;
+  padding: 50px 20px;
+  opacity: 0.7;
+  color: var(--branding-color);
+}
+
+.email-tab {
+  border: solid 1px lightgrey;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: left;
+}
+
 nav {
   padding: 20px 0;
 }
@@ -140,10 +169,6 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
-}
-
-.email-link {
-  text-align: center;
 }
 
 footer {
@@ -216,5 +241,18 @@ footer .social-links a:hover {
 
   nav a {
     font-size: 14px;
+  }
+
+  .card {
+    padding: 8px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .icon {
+    font-size: 80px;
+    padding: 5px;
   }
 }

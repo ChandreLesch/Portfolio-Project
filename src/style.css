@@ -43,6 +43,15 @@ p {
   padding: 120px 50px;
 }
 
+.zero {
+  background: var(--branding-color);
+  border-radius: 5px;
+  color: white;
+  line-height: 27px;
+  margin: 100px;
+  padding: 10px 5px;
+}
+
 .hero p {
   font-size: 36px;
   font-weight: bold;
@@ -142,6 +151,13 @@ p {
   border-radius: 5px;
   padding: 20px;
   text-align: left;
+}
+
+.vertical {
+  border-left: 2px solid #808080;
+  height: 900px;
+  position: absolute;
+  left: 50%;
 }
 
 nav {

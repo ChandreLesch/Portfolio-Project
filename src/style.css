@@ -44,7 +44,7 @@ p {
 }
 
 .zero {
-  background: var(--branding-color);
+  background: #d1b000;
   border-radius: 5px;
   color: white;
   line-height: 27px;
@@ -121,7 +121,7 @@ p {
 }
 
 .logo {
-  max-height: 40px;
+  max-height: 48px;
 }
 
 .card {
@@ -155,9 +155,26 @@ p {
 
 .vertical {
   border-left: 2px solid #808080;
-  height: 900px;
+  height: 100%;
   position: absolute;
   left: 50%;
+}
+
+.vertical li {
+  text-align: center;
+  list-style: none;
+}
+
+.vertical h3 {
+  text-align: center;
+  opacity: 0.7;
+}
+
+.vertical p {
+  opacity: 0.5;
+  font-size: 13px;
+  line-height: 15px;
+  font-family: var(--default-font-family);
 }
 
 nav {

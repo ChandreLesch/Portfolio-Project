@@ -257,14 +257,18 @@ p {
 
 .certificate {
   max-width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+.certificate:hover {
+  transform: scale(2);
 }
 
-.vertical {
+/* .vertical {
   border-left: 2px solid #808080;
   height: 100%;
   position: absolute;
   left: 50%;
-}
+} */
 
 nav {
   padding: 20px 0;

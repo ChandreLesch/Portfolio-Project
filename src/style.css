@@ -52,6 +52,25 @@ p {
   padding: 10px 5px;
 }
 
+.zero#reference {
+  margin: 15px;
+  text-align: center;
+}
+
+.card-body {
+  margin-top: 4px;
+  text-align: center;
+}
+
+.card-body li {
+  opacity: 0.7;
+  list-style: none;
+}
+
+.card-body p {
+  margin: 1px;
+}
+
 .hero p {
   font-size: 36px;
   font-weight: bold;
@@ -136,6 +155,16 @@ p {
 .card-title {
   text-align: center;
   font-size: 25px;
+}
+
+.email-link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.email-link:hover {
+  color: var(--branding-color);
 }
 
 .icon {
@@ -255,20 +284,19 @@ p {
   font-family: var(--default-font-family);
 }
 
+.contentCo#certificate {
+  max-width: 70%;
+  transition: 0.5s all ease-in-out;
+}
+
 .certificate {
   max-width: 100%;
   transition: 0.5s all ease-in-out;
 }
+
 .certificate:hover {
   transform: scale(2);
 }
-
-/* .vertical {
-  border-left: 2px solid #808080;
-  height: 100%;
-  position: absolute;
-  left: 50%;
-} */
 
 nav {
   padding: 20px 0;
